@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  5 DEC 2019 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.22)  12 DEC 2019 15:33
 entering extended mode
 **./kuensche_flache_praesentation_visualisierung_seminar.tex
 (kuensche_flache_praesentation_visualisierung_seminar.tex
@@ -749,18 +749,17 @@ beamerinnerthemedefault.sty"
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
 beamerouterthemedefault.sty")))
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
-beamerthemeBerkeley.sty"
+beamerthemeWarsaw.sty"
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
-beamerouterthemesidebar.sty"
-\beamer@sidebarwidth=\dimen190
-\beamer@headheight=\dimen191
-)
+beamerinnerthemerounded.sty")
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
-beamerinnerthemerectangles.sty")
+beamerouterthemeshadow.sty"
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
-beamercolorthemewhale.sty")
+beamerouterthemesplit.sty"))
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
-beamercolorthemeorchid.sty"))
+beamercolorthemeorchid.sty")
+("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\
+beamercolorthemewhale.sty"))
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\in
 putenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
@@ -1122,7 +1121,7 @@ File: babel.def 2017/11/03 3.15 Babel common definitions
 File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 \babel@savecnt=\count154
-\U@D=\dimen192
+\U@D=\dimen190
 LaTeX Info: Redefining \textlatin on input line 1741.
 )
 Package babel Info: Making " an active character on input line 139.
@@ -1136,10 +1135,6 @@ enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 10.
-
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 10.
@@ -1170,14 +1165,14 @@ LaTeX Font Info:    ... okay on input line 18.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(69.22636pt, 280.74263pt, 14.22636pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=280.74263pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-3.04362pt
-* \evensidemargin=-3.04362pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -1201,13 +1196,13 @@ LaTeX Font Info:    ... okay on input line 18.
 supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count155
-\scratchdimen=\dimen193
+\scratchdimen=\dimen191
 \scratchbox=\box53
 \nofMPsegments=\count156
 \nofMParguments=\count157
 \everyMPshowfont=\toks45
 \MPscratchCnt=\count158
-\MPscratchDim=\dimen194
+\MPscratchDim=\dimen192
 \MPnumerator=\count159
 \makeMPintoPDFobject=\count160
 \everyMPtoPDFconversion=\toks46
@@ -1331,52 +1326,163 @@ Dictionary: translator-numbers-dictionary, Language: English
 tor\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-(kuensche_flache_praesentation_visualisierung_seminar.nav) [1{C:/Users/Julien C
-aselmann/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+(kuensche_flache_praesentation_visualisierung_seminar.nav)
+Overfull \hbox (12.35674pt too wide) in paragraph at lines 18--18
+ [][]  
+ []
+
+
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[1{C:/Users/Julien Caselmann/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+] (kuensche_flache_praesentation_visualisierung_seminar.toc)
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[3
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[4
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[5
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 73.
 
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfont
 s\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 73.
 
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfont
 s\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 42.
+line 73.
 
 ("C:\Users\Julien Caselmann\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmat
 haccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [2
-
-] [3
-
-] [4
-
-] [5
-
-]
-<pseudosphere.png, id=157, 760.8425pt x 1027.84pt>
-File: pseudosphere.png Graphic file (type png)
-<use pseudosphere.png>
-Package pdftex.def Info: pseudosphere.png  used on input line 68. on input line
- 68.
-Package pdftex.def Info: Requested size: 152.1658pt x 205.56436pt on input line
- 68.
-
-Overfull \vbox (5.35452pt too high) detected at line 68
+)
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
  []
 
 [6
 
- <./pseudosphere.png>] [7
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[7
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[8
+
+]
+<traktrix.png, id=299, 432.61626pt x 592.2125pt>
+File: traktrix.png Graphic file (type png)
+<use traktrix.png>
+Package pdftex.def Info: traktrix.png  used on input line 100. on input line 10
+0.
+Package pdftex.def Info: Requested size: 86.52171pt x 118.4404pt on input line 
+100.
+
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[9
+
+ <./traktrix.png>]
+<pseudosphere.png, id=330, 760.8425pt x 1027.84pt>
+File: pseudosphere.png Graphic file (type png)
+<use pseudosphere.png>
+Package pdftex.def Info: pseudosphere.png  used on input line 108. on input lin
+e 108.
+Package pdftex.def Info: Requested size: 152.1658pt x 205.56436pt on input line
+ 108.
+
+Overfull \vbox (11.03119pt too high) detected at line 108
+ []
+
+
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[10
+
+ <./pseudosphere.png>]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[11
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[12
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[13
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[14
+
+]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[15
+
+ <C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/tex/latex/beamer/
+beamericonarticle.pdf>]
+Overfull \hbox (12.35674pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[16
 
 ]
 \tf@nav=\write6
@@ -1388,44 +1494,49 @@ Overfull \vbox (5.35452pt too high) detected at line 68
 \tf@snm=\write8
 \openout8 = `kuensche_flache_praesentation_visualisierung_seminar.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 78.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 78.
-
-(kuensche_flache_praesentation_visualisierung_seminar.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 78.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 78.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+ (kuensche_flache_praesentation_visualisierung_seminar.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
 Package rerunfilecheck Info: File `kuensche_flache_praesentation_visualisierung
 _seminar.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: B1F971C725F27F9055D89162B7E0DB6A;161.
  ) 
 Here is how much of TeX's memory you used:
- 18014 strings out of 493312
- 347465 string characters out of 3125040
- 419263 words of memory out of 3000000
- 21111 multiletter control sequences out of 15000+200000
- 14697 words of font info for 43 fonts, out of 3000000 for 9000
+ 18229 strings out of 493312
+ 353076 string characters out of 3125040
+ 420349 words of memory out of 3000000
+ 21292 multiletter control sequences out of 15000+200000
+ 16859 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,55p,840b,569s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,19n,61p,838b,662s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Julien Caselmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecss0800.pk> <C:\Users\Julien Caselmann\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecss1200.pk> <C:\Users\Julien Caselmann\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk> <C:\Users\Jul
-ien Caselmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0
-600.pk><C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmex10.pfb><C:/Users/Julien Caselmann/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Julien Caselma
-nn/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-<C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmss8.pfb><C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/Julien Caselmann/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Use
-rs/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb><C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on kuensche_flache_praesentation_visualisierung_seminar.pdf (7 p
-ages, 231918 bytes).
+\ec\dpi600\ecsi1000.pk> <C:\Users\Julien Caselmann\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecss1000.pk> <C:\Users\Julien Caselmann\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi0600.pk> <C:\Users\Jul
+ien Caselmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsi1
+200.pk> <C:\Users\Julien Caselmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecss0800.pk> <C:\Users\Julien Caselmann\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1200.pk> <C:\Users\Julien Caselmann\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss1728.pk> <C:\User
+s\Julien Caselmann\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecss0600.pk><C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Julien Caselmann/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Julien Ca
+selmann/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmss12.pfb><C:/Users/Julien Caselmann/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Julien Caselmann/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:
+/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmssi8.pfb><C:/Users/Julien Caselmann/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Julien Caselmann/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on kuensche_flache_praesentation_visualisierung_seminar.pdf (16 
+pages, 361460 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 861 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
