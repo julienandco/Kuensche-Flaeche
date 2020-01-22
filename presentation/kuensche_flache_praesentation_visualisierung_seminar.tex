@@ -7,6 +7,8 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{subcaption}
 \author{Veronica Schier, Adrian Löwenberg Casas, \\Julien Caselmann}
 \title{Die Kuen'sche Fläche}
 %\setbeamercovered{transparent} 
@@ -15,6 +17,12 @@
 %\institute{} 
 %\date{} 
 %\subject{} 
+
+\newtheorem{mydef}{Definition nach \cite{gray}}
+\newtheorem{mythm}{Satz nach \cite{gray}}
+\newtheorem{mylem}{Lemma nach \cite{gray}}
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \begin{document}
 
 \begin{frame}
@@ -33,7 +41,7 @@
 \begin{itemize}
 \item benannt nach Theodor Kuen 
 \item experimentierte mit Bianchi-Transformationen und der Pseudosphäre
-\item viel Vorarbeit in der Differentialgeometrie durch Luigi Bianchi \cite{bianchi_wiki}
+\item viel Vorarbeit in der Differentialgeometrie durch Luigi Bianchi
 \end{itemize}
 
 \end{frame}
@@ -56,7 +64,7 @@
 \begin{frame}
 \begin{enumerate}
 \item Pseudosphäre
-\item Bianchi-Kongruenzen
+\item Tshebyshev-Parametrisierung
 \item Bianchi-Transformationen
 \end{enumerate}
 \end{frame}
@@ -65,81 +73,140 @@
 
 \begin{itemize}
 \item untersucht von Ferdinand Minding und Eugene Beltrami in 1868
-\item Differentialgeometrie: Fläche mit konstanter, negativer Gaußkrümmung\cite{pseudo_wiki}
+\item Differentialgeometrie: Fläche mit konstanter, negativer Gaußkrümmung
 \item Pseudosphäre mit Radius $R$: Fläche mit konstanter, negativer Gaußkrümmung $-\frac{1}{R^2}$ \cite{pseudo_mathcurve}
- \cite{pseudo_wiki}
 \end{itemize}
 
 \end{frame}
 
 \begin{frame}{Beispiele einer Pseudosphäre}
-
-\begin{itemize}
-\item Hyperboloid
-\item Traktrikoid
-\item theoretische Oberflächen
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Beispiel: Traktrikoid}
-
-\begin{itemize}
-\item Traktrix = Schleppkurve
-\item Traktrikoid = Drehfläche einer Traktrix
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Beispiel: Traktrikoid}
-
-\begin{center}
-\includegraphics[scale=0.2]{traktrix.png}
-\end{center}
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.3\linewidth]{hyperboloid.png}
+  \caption{Hyperboloid}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.3\linewidth]{pseudosphere.png}
+  \caption{Traktrikoid}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.3\linewidth]{theo_surface.png}
+  \caption{theoretische Oberflächen}
+\end{subfigure}
+\end{figure}
 
 \end{frame}
 
 \begin{frame}{Beispiel: Traktrikoid}
+Formel für Traktrix pls
+\end{frame}
 
-\begin{center}
-\includegraphics[scale=0.2]{pseudosphere.png}
-\end{center}
+\begin{frame}{Beispiel: Traktrikoid}
+
+\begin{figure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{traktrix.png}
+  \caption{Traktrix}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{pseudosphere.png}
+  \caption{Traktrikoid}
+\end{subfigure}
+
+\end{figure}
 
 \end{frame}
 
-\begin{frame}{Bianchi - Kongruenzen}
-
-\begin{itemize}
-\item Kongruenz von Geraden
-\item Krümmungen der Brennflächen an den Punkten einer Geraden sind alle gleich und negativ
-\item Kongruenzgeraden bilden die asymptotischen Netze auf den Brennflächen auf ein orthogonales Netz auf einer Sphäre ab \cite{b_congruence_enc}
-\end{itemize}
-
+\begin{frame}{Tshebyshev Parametrisierung einer Pseudosphäre}
+\begin{mydef}
+Sei $a > 0$. Die \textbf{Tshebyshev Parametrisierung} einer Pseudosphäre mit Radius $a$ ist die Abbildung von $\mathbb{R}^2 \rightarrow \mathbb{R}^3$, gegeben durch:
+\begin{center}
+$(u,v) \mapsto a\Big(\frac{cos(v)}{cosh(u)}, \frac{sin(u)}{cosh(u)}, u - tanh(u)\Big)$.
+\end{center}
+\end{mydef}
 \end{frame}
 
-\begin{frame}{Bianchi - Kongruenzen}
-Krümmung einer Brennfläche einer Bianchi - Kongruenz:
-\newline 
-\begin{center}
-$K = \frac{1}{(\phi(u) + \psi(v))^2}$
-\end{center}
-
-
-Jede Fläche, deren Krümmungen diese Bedingung erfüllen, ist eine Bianchi - Fläche \cite{b_congruence_enc}
+\begin{frame}{Tshebyshev Parametrisierung einer Pseudosphäre}
+\begin{figure}[h!]
+\includegraphics[scale=0.5]{pseudosphere_tchebyshev.png}
+\caption{Pseudosphäre nach Tshebyshev Parametrisierung}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Bianchi - Transformationen}
-
+\begin{mydef}
+Sei $\mathcal{M}$ eine Fläche im $\mathbb{R}^3$ mit konstanter Gaußkrümmung $-\frac{1}{a^2}, a > 0$. \newline Eine Fläche $\mathcal{N}$ mit Normalenfeld $U_{\mathcal{N}}$ ist eine \textbf{Bianchi-Transformation} von $\mathcal{M}$, wenn es eine Funktion $\phi : \mathcal{M} \rightarrow \mathcal{N}$ gibt, sodass $\forall p \in \mathcal{M}:$\newline
 \begin{itemize}
-\item Übergang einer Brennfläche $S$ einer Bianchi - Kongruenz in die andere Brennfläche $S'$ derselben Bianchi - Kongruenz
-\item $S$ Pseudosphäre $\Rightarrow S'$ Pseudosphäre
-\item behält Gesamtkrümmung bei
+\item $\norm{\phi (p) - p} = a$
+\item $\phi (p) - p$ ist parallel zu einem $v \in T_{p}\mathcal{M}$
+\item $U_{\mathcal{N}} (\phi (p))$ ist parallel zu einem $v \in T_{p}\mathcal{M}$ und senkrecht auf $\phi (p) - p$
 \end{itemize}
+\end{mydef}
+\end{frame}
+
+\begin{frame}{Bianchi - Transformationen}
+\begin{figure}[h!]
+\includegraphics[scale=0.5]{bianchi_transform_def.png}
+\caption{Erzeugung einer Fläche durch Translation der Punkte eines runden Kegels}
+\end{figure}
 
 \end{frame}
 
+\begin{frame}{Funfact: Erzeugung von Pseudosphären mit Bianchi-Transformationen}
+\begin{mydef}
+Ein \textbf{Patch bzw. eine lokale Fläche} ist eine differenzierbare Funktion $x: U \rightarrow \mathbb{R}^n$, mit $U \subset \mathbb{R}^2$ offen. 
+\end{mydef}
+\end{frame}
+
+\begin{frame}{Funfact: Erzeugung von Pseudosphären mit Bianchi-Transformationen}
+\begin{itemize}
+\item wenden Bianchi-Transformation auf den Patch $x(u,v) = (0,0,\epsilon au)$ an, mit $0 < a \equiv const, \epsilon = \pm1$
+\item Ergebnis:
+\end{itemize}
+\centering $\hat{x} = a\Big (\delta cos(v) sech(u), \delta sin(v) sech(u), \epsilon\big(u-tanh(u)\big)\Big)$\newline\newline
+$\Rightarrow$ stimmt überein mit dem Patch: \newline\newline
+\centering
+$(u,v) \mapsto \Big(\frac{a\delta cos(v)}{cosh(u)}, \frac{a\delta sin(v)}{cosh(u)}, a\epsilon(u - tanh(u)\Big)$
+\end{frame}
 
 \section{Parametrisierung}
+\begin{frame}{Kuen'sche Fläche als Bianchi-Transformation der Pseudosphäre}
+\begin{mylem}
+Sei $\hat{x}$ Bianchi-Transformation der Tshebyshev-Parametrisierung der Pseudosphäre und setze $\theta := 2arctan(e^u)$.
+Außerdem sei $\hat{\theta}$ Winkelfunktion von $\hat{x}$. Dann:
+\begin{center}
+$\hat{\theta}(u,v) = 2arctan\big(-\frac{v}{cosh(u)}\big)$.
+\end{center}
+\end{mylem}
+\end{frame}
+
+\begin{frame}{Kuen'sche Fläche als Bianchi-Transformation der Pseudosphäre}
+\begin{mylem}
+Wenn $\hat{\theta}$ so ist wie im Lemma gerade, dann:
+\begin{tabular}{rl}
+&\\
+$cos(\hat{\theta})$ & $ = -\frac{v^2 - cosh(u)}{v^2 + cosh^2(u)}$,\\
+&\\
+$sin(\hat{\theta})$ & $ = \frac{-2v cosh(u)}{v^2 + cosh^2(u)}$
+\end{tabular}
+
+\end{mylem}
+\end{frame}
+
+\begin{frame}{Kuen'sche Fläche als Bianchi-Transformation der Pseudosphäre}
+\begin{mythm}
+Die Bianchi-Transformation der Tshebyshev-Parametrisierung der Pseudosphäre ist gegeben durch Gleichsetzen von $\hat{x}$ mit:
+\begin{center}
+$\Big(\frac{2cosh(u)\big(cos(v) + v sin(v)\big)}{v^2 + cosh^2(u)}, \frac{2cosh(u)\big(sin(v) - v cos(v)\big)}{v^2 + cosh^2(u)}, u - \frac{sinh(2u)}{v^2 + cosh^2(u)}\Big)$
+\end{center}
+\end{mythm}
+\end{frame}
+
 \begin{frame}{Parametrisierung der Kuen'schen Fläche}
 
 \begin{center}
@@ -163,45 +230,17 @@ u,v \in \left[ -2\pi , 2\pi \right] $
 \footnotesize{
 \begin{thebibliography}{99}
 
-\bibitem[Wiki] {pseudo_wiki} Wikipedia
-\newblock Die Pseudosphäre
-\newblock \emph{https://de.wikipedia.org/wiki/Pseudosph\%C3\%A4re}
-\newblock 5. Dezember 2019
-
 \bibitem[Mathcurve] {pseudo_mathcurve} Mathcurve
 \newblock The pseudosphere
 \newblock \emph{https://www.mathcurve.com/surfaces.gb/\\pseudosphere/pseudosphere.shtml}
 \newblock 5. Dezember 2019
 
-\bibitem[Wiki] {bianchi_wiki} Wikipedia
-\newblock Luigi Bianchi
-\newblock \emph{https://de.wikipedia.org/wiki/Luigi\_ Bianchi}
-\newblock 12. Dezember 2019
+\bibitem[Gray] {gray} Titel vong Buch
+\newblock mehr titel vong Buch
 
 \end{thebibliography}
 }
 
 \end{frame}
-
-\begin{frame}
-
-\footnotesize{
-\begin{thebibliography}{99}
-
-\bibitem[Encycl.] {b_congruence_enc} Encyclopedia of Mathematics
-\newblock Bianchi congruence
-\newblock \emph{https://www.encyclopediaofmath.org/index.php/Bianchi\_ congruence}
-\newblock 12. Dezember 2019
-
-\bibitem[Encycl.] {b_transform_enc} Encyclopedia of Mathematics
-\newblock Bianchi transformation
-\newblock \emph{https://www.encyclopediaofmath.org/index.php/Bianchi\_ transformation}
-\newblock 12. Dezember 2019
-
-\end{thebibliography}
-}
-
-\end{frame}
-
 
 \end{document}

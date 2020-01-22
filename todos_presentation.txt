@@ -1,0 +1,25 @@
+bianchi kongruenzen weg 
+
+wiki quellen weg
+
+mehr bilder
+
+gleichungen für pseudosphären
+
+
+
+Notizen zum Buch
+
+Traktrix --Rotationsfläche --> Pseudosphäre --Bianchi-Transform--> Kuen
+
+- Traktrix + Rot-Fläche = Pseudosphäre (m zwei Bildern + Gleichungen) (done)
+-teschebyshev princ param pseudo (def 21.17)
+
+- Bianchi-Transform Def (Thm. 21.20 + Bild) (done)
+
+- (internet def)  patch  (done)
+
+- funfact: pseudosphären geht auch über BT (s.702ff) (done)
+
+- 21.7: Kuen als BT der Pseudosphäre (S.704ff) (done)
+- it can be shown: Thm 21.30 -> ist auch unsere param (done)
