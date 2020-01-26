@@ -1,5 +1,5 @@
 \documentclass[12pt]{beamer}
-\usetheme{Warsaw}
+\usetheme{Frankfurt}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 \usepackage[T1]{fontenc}
@@ -20,6 +20,7 @@
 
 \newtheorem{mydef}{Definition nach \cite{gray}}
 \newtheorem{mythm}{Satz nach \cite{gray}}
+\newtheorem{myeq}{Gleichung}
 \newtheorem{mylem}{Lemma nach \cite{gray}}
 
 \newcommand{\norm}[1]{\left\lVert#1\right\rVert}
@@ -39,25 +40,29 @@
 \begin{frame}{Ursprung und Entdeckung}
 
 \begin{itemize}
-\item benannt nach Theodor Kuen 
-\item experimentierte mit Bianchi-Transformationen und der Pseudosphäre
-\item viel Vorarbeit in der Differentialgeometrie durch Luigi Bianchi
+\item benannt nach Theodor Kuen (Reallehrer, später OstR)
+\item nach Gauß' Tod: starkes Interesse an Flächen konstanter negativer Krümmung
+\item Bour 1857: jede Schraubenfläche ist auf Rotationsfläche abwickelbar
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Ursprung und Entdeckung}
 
-\begin{center}
-\textit{\glqq Die schönste Bianchi - Transformation der Pseudosphäre\grqq}
-\end{center}
+\begin{itemize}
+\item 1860: Preisaufgabe der Pariser Akademie: Methoden, um aus gegebener Fläche darauf abwickelbare Flächen zu erzeugen $\Rightarrow$ Bäcklund, Bianchi, Lie etc.\cite{scriba}
+\item Entdeckung: pseudosphärische Flächen korrelieren direkt mit den Lösungen der Sinus-Gordon-Gleichung 
+\item normalerweise keine expliziten Lösungen, aber Bäcklund: Folge expliziter Lösungen: Soliton-Lösungen, gehören zu \glqq besonders schönen und symmetrischen pseudosphärischen Flächen\grqq \cite{bruter}
+\end{itemize}
 
-\begin{tiny}
-\begin{flushright}
-\textit{- Jeder Mathematiker, immer\phantom{aaa}}
-\end{flushright}
-\end{tiny}
+\end{frame}
 
+\begin{frame}{Ursprung und Entdeckung}
+\begin{itemize}
+
+\item Kuen experimentierte mit Bianchi-Transformationen und der Pseudosphäre
+\item 1884: Kuen entdeckt die außergewöhnlich geformte Fläche
+\end{itemize}
 \end{frame}
 
 \section{Zugrundeliegende Mathematik}
@@ -225,8 +230,44 @@ u,v \in \left[ -2\pi , 2\pi \right] $
 
 \end{frame}
 
-\begin{frame}
+\section{Eigenschaften}
+\begin{frame}{Eigenschaften der Kuenschen Fläche}
+\begin{itemize}
+\item Fläche konstanter Gaußkrümmung, aber \textbf{keine} Drehfläche \cite{wuensch}
+\item 2-soliton Lösung der Sinus-Gordon-Gleichung \cite{bruter}
+\end{itemize}
+\end{frame}
 
+\begin{frame}{Sinus-Gordon-Gleichung}
+\begin{myeq}
+$\phi_{tt} - \phi_{xx} + sin( \phi ) = 0$
+\end{myeq}
+\textbf{Funfact:}\newline Im 20. Jahrhundert taucht die Sinus-Gordon-Gleichung in anderem Kontext erneut auf: als Modell einer relativistischen Quantenfeldtheorie\cite{bruter}
+\end{frame}
+
+\begin{frame}{Eigenschaften der Kuen'schen Fläche}
+\begin{itemize}
+\item Fläche konstanter Gaußkrümmung, aber \textbf{keine} Drehfläche \cite{wuensch}
+\item 2-soliton Lösung der Sinus-Gordon-Gleichung \cite{bruter}
+\item beliebtes Modeaccessoire
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Kuen'sche Fläche als Statussymbol}
+\includegraphics[scale=0.5]{kuen_cuffs.png}
+\end{frame}
+
+\begin{frame}{Kuen'sche Fläche als Statussymbol}
+\centering
+\includegraphics[scale=0.5]{kuen_earrings.png}
+\end{frame}
+
+\begin{frame}{Kuen'sche Fläche als Briefbeschwerer}
+\centering
+\includegraphics[scale=0.5]{kuen_letter.png}
+\end{frame}
+
+\begin{frame}
 \footnotesize{
 \begin{thebibliography}{99}
 
@@ -235,12 +276,44 @@ u,v \in \left[ -2\pi , 2\pi \right] $
 \newblock \emph{https://www.mathcurve.com/surfaces.gb/\\pseudosphere/pseudosphere.shtml}
 \newblock 5. Dezember 2019
 
-\bibitem[Gray] {gray} Titel vong Buch
-\newblock mehr titel vong Buch
+\bibitem[Gray] {gray} Modern Differential Geometry of Curves and Surfaces with Mathematica
+\newblock Alfred Gray
+\newblock 1998
 
 \end{thebibliography}
 }
 
+\end{frame}
+
+\begin{frame}
+\footnotesize{
+\begin{thebibliography}{99}
+
+\bibitem[Scriba] {scriba} 5000 Jahre Geometrie: Geschichte, Kulturen, Menschen
+\newblock Christoph Scriba, Peter Schreiber
+\newblock Springer Verlag
+\newblock 2009
+
+\bibitem[Wünsch] {wuensch} Differentialgeometrie: Kurven und Flächen
+\newblock Volkmar Wünsch
+\newblock Springer Verlag
+\newblock 1997
+
+\end{thebibliography}
+}
+\end{frame}
+
+\begin{frame}
+\footnotesize{
+\begin{thebibliography}{99}
+
+\bibitem[Bruter] {bruter} Mathematics and Modern Art
+\newblock Claude Bruter
+\newblock Springer Verlag
+\newblock 2012
+
+\end{thebibliography}
+}
 \end{frame}
 
 \end{document}

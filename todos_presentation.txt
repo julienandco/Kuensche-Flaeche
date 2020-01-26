@@ -1,12 +1,17 @@
 ﻿Stand 23.01.20
 
-- Geschichte mehr ausarbeiten (wie auch immer, aber wir brauchen mehr Infos)
+- Geschichte mehr ausarbeiten (wie auch immer, aber wir brauchen mehr Infos) (done)
 - Können wir irgendetwas an der Tafel machen? Z.B. die Bianchi-Trafo grob skizzieren?
-- hat die Kuen'sche Fläche irgendwelche tollen Eigenschaften? (z.B. Optimalität bzgl. iwas (Willmor-Energie?), Euler-Charakteristik der Fläche?)
-- welche anderen Bianchi-Trafos gibt es? Sind die auch so fame?
-- Matlab und Blender in unseren Vortrag einbauen
-- Asymptotik erklären (geht unendlich so weiter und windet sich unendlich oft)
-- wieso haben wir da ausgeschnitten, wie wir es getan haben und nicht anders?
+- hat die Kuen'sche Fläche irgendwelche tollen Eigenschaften? (z.B. Optimalität bzgl. iwas (Willmor-Energie?), Euler-Charakteristik der Fläche?) (done)
+Sie ist 2-soliton Lsg der Sinus Gordon-Gleichung!
+
+- welche anderen Bianchi-Trafos gibt es? Sind die auch so fame? (hab jz keine gesucht, weil vortrag schon relativ länglich)
+
+- Matlab und Blender in unseren Vortrag einbauen (kurz reintabben und erzählen, war eh nicht so viel)
+
+- Asymptotik erklären (geht unendlich so weiter und windet sich unendlich oft) (mündlich beim Zeigen der Fläche)
+
+- wieso haben wir da ausgeschnitten, wie wir es getan haben und nicht anders? (weil es so schöner aussieht)
 
 
 --> Hoffmann hat Tafelarbeit sehr abgefeiert... müssen uns iwas überlegen
