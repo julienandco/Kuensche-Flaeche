@@ -50,9 +50,9 @@
 \begin{frame}{Ursprung und Entdeckung}
 
 \begin{itemize}
-\item 1860: Preisaufgabe der Pariser Akademie: Methoden, um aus gegebener Fläche darauf abwickelbare Flächen zu erzeugen $\Rightarrow$ Bäcklund, Bianchi, Lie etc.\cite{scriba}
+\item 1860 Preisaufgabe der Pariser Akademie: Methoden, um aus gegebener Fläche darauf abwickelbare Flächen zu erzeugen\cite{scriba}
 \item Entdeckung: pseudosphärische Flächen korrelieren direkt mit den Lösungen der Sinus-Gordon-Gleichung 
-\item normalerweise keine expliziten Lösungen, aber Bäcklund: Folge expliziter Lösungen: Soliton-Lösungen, gehören zu \glqq besonders schönen und symmetrischen pseudosphärischen Flächen\grqq \cite{bruter}
+\item normalerweise keine expliziten Lösungen für solche PDEs $\Rightarrow$Bäcklund: Soliton-Lösungen \cite{bruter}
 \end{itemize}
 
 \end{frame}
@@ -69,7 +69,7 @@
 \begin{frame}
 \begin{enumerate}
 \item Pseudosphäre
-\item Tshebyshev-Parametrisierung
+\item Patches und Tshebyshev-Patches
 \item Bianchi-Transformationen
 \end{enumerate}
 \end{frame}
@@ -106,10 +106,6 @@
 \end{frame}
 
 \begin{frame}{Beispiel: Traktrikoid}
-Formel für Traktrix pls
-\end{frame}
-
-\begin{frame}{Beispiel: Traktrikoid}
 
 \begin{figure}
 \begin{subfigure}{.5\textwidth}
@@ -125,6 +121,19 @@ Formel für Traktrix pls
 
 \end{figure}
 
+\end{frame}
+
+\begin{frame}{Definition: Patch}
+\begin{mydef}
+Ein \textbf{Patch bzw. eine lokale Fläche} ist eine differenzierbare Funktion $x: U \rightarrow \mathbb{R}^n$, mit $U \subset \mathbb{R}^2$ offen. 
+\end{mydef}
+\end{frame}
+
+\begin{frame}{Definition: Tshebyshev-Patch}
+\begin{mydef}
+Ein \textbf{Tshebyshev-Patch} mit Radius $a$ ist ein Patch $y: \mathcal{U}\rightarrow \mathbb{R}^n$, dessen Erste Fundamentalform $ds^2 = Edp^2 + 2Fdpdq + Gdq^2$ folgende Eigenschaft besitzt:\newline
+$E = G = a^2$
+\end{mydef}
 \end{frame}
 
 \begin{frame}{Tshebyshev Parametrisierung einer Pseudosphäre}
@@ -163,12 +172,6 @@ Sei $\mathcal{M}$ eine Fläche im $\mathbb{R}^3$ mit konstanter Gaußkrümmung $
 \end{frame}
 
 \begin{frame}{Funfact: Erzeugung von Pseudosphären mit Bianchi-Transformationen}
-\begin{mydef}
-Ein \textbf{Patch bzw. eine lokale Fläche} ist eine differenzierbare Funktion $x: U \rightarrow \mathbb{R}^n$, mit $U \subset \mathbb{R}^2$ offen. 
-\end{mydef}
-\end{frame}
-
-\begin{frame}{Funfact: Erzeugung von Pseudosphären mit Bianchi-Transformationen}
 \begin{itemize}
 \item wenden Bianchi-Transformation auf den Patch $x(u,v) = (0,0,\epsilon au)$ an, mit $0 < a \equiv const, \epsilon = \pm1$
 \item Ergebnis:
@@ -176,7 +179,7 @@ Ein \textbf{Patch bzw. eine lokale Fläche} ist eine differenzierbare Funktion $
 \centering $\hat{x} = a\Big (\delta cos(v) sech(u), \delta sin(v) sech(u), \epsilon\big(u-tanh(u)\big)\Big)$\newline\newline
 $\Rightarrow$ stimmt überein mit dem Patch: \newline\newline
 \centering
-$(u,v) \mapsto \Big(\frac{a\delta cos(v)}{cosh(u)}, \frac{a\delta sin(v)}{cosh(u)}, a\epsilon(u - tanh(u)\Big)$
+$(u,v) \mapsto \Big(\frac{a\delta cos(v)}{cosh(u)}, \frac{a\delta sin(v)}{cosh(u)}, a\epsilon\big(u - tanh(u)\big)\Big)$
 \end{frame}
 
 \section{Parametrisierung}
@@ -223,7 +226,7 @@ x\\y\\z
 \begin{pmatrix}
 \frac{2cosh(u)* \left( cos(v) + v*sin(v) \right)}{v^2+cosh(u)^2}\\\\
 \frac{2cosh(u)*(sin(v) - v*cos(v))}{v^2 + cosh(u)^2}\\\\
-\frac{sinh(2u)}{v^2 + cosh(u)^2}
+u - \frac{sinh(2u)}{v^2 + cosh(u)^2}
 \end{pmatrix}
 u,v \in \left[ -2\pi , 2\pi \right] $
 \end{center}
@@ -242,7 +245,7 @@ u,v \in \left[ -2\pi , 2\pi \right] $
 \begin{myeq}
 $\phi_{tt} - \phi_{xx} + sin( \phi ) = 0$
 \end{myeq}
-\textbf{Funfact:}\newline Im 20. Jahrhundert taucht die Sinus-Gordon-Gleichung in anderem Kontext erneut auf: als Modell einer relativistischen Quantenfeldtheorie\cite{bruter}
+\textbf{Funfact:}\newline Im 20. Jahrhundert als Modell einer relativistischen Quantenfeldtheorie erneut aufgetaucht\cite{bruter}
 \end{frame}
 
 \begin{frame}{Eigenschaften der Kuen'schen Fläche}
@@ -267,6 +270,7 @@ $\phi_{tt} - \phi_{xx} + sin( \phi ) = 0$
 \includegraphics[scale=0.5]{kuen_letter.png}
 \end{frame}
 
+\section{Quellen}
 \begin{frame}
 \footnotesize{
 \begin{thebibliography}{99}
