@@ -9,7 +9,7 @@
 \usepackage{graphicx}
 \usepackage{amsthm}
 \usepackage{subcaption}
-\author{Veronica Schier, Adrian Löwenberg Casas, \\Julien Caselmann}
+\author{Veronica Schier, Adrián Löwenberg Casas, \\Julien Caselmann}
 \title{Die Kuen'sche Fläche}
 %\setbeamercovered{transparent} 
 %\setbeamertemplate{navigation symbols}{} 
@@ -134,6 +134,16 @@ Ein \textbf{Patch bzw. eine lokale Fläche} ist eine differenzierbare Funktion $
 Ein \textbf{Tshebyshev-Patch} mit Radius $a$ ist ein Patch $y: \mathcal{U}\rightarrow \mathbb{R}^n$, dessen Erste Fundamentalform $ds^2 = Edp^2 + 2Fdpdq + Gdq^2$ folgende Eigenschaft besitzt:\newline
 $E = G = a^2$
 \end{mydef}
+\end{frame}
+
+\begin{frame}{Tshebyshev-Patch zweiter Art mit Winkelfunktion $\theta$}
+\begin{mylem}
+CSU impliziert \newline
+$F^2 = \langle y_p,y_q\rangle^2 \leq \norm{y_p}^2 \norm{y_q}^2 = EQ = a^4$,
+also: $F = a^2 \cos\omega$. Die Metrik eines Tshebyshev-Patches mit Radius $a$ kann also dargestellt werden als:\newline
+$ds^2 = a^2(dp^2 + 2\cos\omega dpdq + dq^2)$\newline\newline
+Wir nennen $\theta = \frac{\omega}{2}$ die Winkelfunktion des Tshebyshev-Patches.
+\end{mylem}
 \end{frame}
 
 \begin{frame}{Tshebyshev Parametrisierung einer Pseudosphäre}

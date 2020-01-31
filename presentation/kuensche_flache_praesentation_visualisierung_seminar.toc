@@ -1,6 +1,6 @@
 \select@language {german}
 \beamer@sectionintoc {1}{Geschichte}{3}{0}{1}
 \beamer@sectionintoc {2}{Zugrundeliegende Mathematik}{6}{0}{2}
-\beamer@sectionintoc {3}{Parametrisierung}{17}{0}{3}
-\beamer@sectionintoc {4}{Eigenschaften}{21}{0}{4}
-\beamer@sectionintoc {5}{Quellen}{27}{0}{5}
+\beamer@sectionintoc {3}{Parametrisierung}{18}{0}{3}
+\beamer@sectionintoc {4}{Eigenschaften}{22}{0}{4}
+\beamer@sectionintoc {5}{Quellen}{28}{0}{5}
